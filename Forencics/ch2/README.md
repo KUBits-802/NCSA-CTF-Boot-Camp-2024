@@ -10,7 +10,7 @@
 Archive:  ctf_image.zip
   inflating: ctf_image.dd.gz  
 ```
-จากนั้นก็นั้นการแตกไฟล์ "ctf_image.dd.gz" ด้วยคำสั่ง gzip -d <file_name> 
+หลังจากนั้นก็ทำการแตกไฟล์ "ctf_image.dd.gz" ด้วยคำสั่ง gzip -d <file_name> 
 ```
 ┌──(kali㉿kali)-[~/Downloads/foresnsics/forensics_2]
 └─$ gzip -d ctf_image.dd.gz 
