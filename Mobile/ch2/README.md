@@ -32,12 +32,9 @@ you can manully install [here](https://github.com/skylot/jadx/releases)
 
 ## Step 4: หา flag
 1. เมื่อลองค้นหาจาก flag format ดูแล้ว (flag format: **flag{md5()}**) ในฟังชั่น text search ก็ไม่เจออะไร <br>  ![alt](img/M2_2.png)
-<br>
 2. ลองดูว่าในไฟล์มีอะไรน่าสนใจบ้าง <br> ![alt](img/M2_3.png)
-<br>
 3. เมื่อลองเปิด folder assets ดูจะพบไฟล์ flag.txt <br> ![alt](img/M2_4.png) 
-<br>
-4. นำไปถอดรหัสด้วย base64 ในเว็บไซต์ถอดรหัส [CyberChef](https://gchq.github.io/CyberChef) <br> ![alt](img/M2_5.png)
+4. นำไปถอดรหัสด้วย base64 ในเว็บไซต์ถอดรหัส [CyberChef](https://gchq.github.io/CyberChef) ![alt](img/M2_5.png)
 
 ก็จะได้ flag ออกมาคือ **flag{410b8e2da11eb2fb2c6ca1252a694ad7}**
 
