@@ -10,7 +10,7 @@ see that the file is .apk which is andriod application file so we wanted to use 
 
 ## Install JADX:
 ### For Linux
-1.install jdx dev kit [here](https://www.oracle.com/java/technologies/downloads/#jdk21-linux)
+1.install jdx dev kit [here](https://www.oracle.com/java/technologies/downloads/#jdk21-linux)<br><br>
 2.run below code in terminal
 ```
 git clone https://github.com/skylot/jadx.git
@@ -23,7 +23,7 @@ cd build/jadx/bin
 ./jadx-gui
 ```
 
-### For windown
+### For window
 you can manully install [here](https://github.com/skylot/jadx/releases) 
 
 ## Step 3: decomplie dex to java
