@@ -1,8 +1,8 @@
-# Programming / Challenge0
-**NCSA CTF Bootcamp 2023**<br/>
+# Programming / Challenge 2
+**NCSA CTF Bootcamp 2024**<br/>
 **Programming**<br/>
-**Challenge 0**
-## Step 0:
+**Challenge 2**
+## Step 1:
 ```bash
 [siph:...ts/CTF_COPY/Programming/ch1]$ unzip challenge.zip
 Archive:  challenge.zip
@@ -32,8 +32,8 @@ print(f"Decoded Message: {decoded_message}")
 #p = "??????????????????????????????"
 #r_k = "UPPERCASE ONLY"  #FCCID 
 ```
-## Step 1:
-จากใน code จะเห็นว่าไม่มี plaintext และ key ที่ให้มาผมเลยคิดว่าเลยลองไปหาจากรูปที่ให้มาผมเลยลองหาจากรูป 2005-honda-pilot.jpg 
+## Step 2:
+จากใน code จะเห็นว่าไม่มี plaintext และ key ที่ให้มาผมเลยคิดว่าเลยลองไปหาจากรูปที่ให้มาผมเลยลองหาจากรูป 2006-honda-pilot.jpg 
 ```bash
 [siph:...Y/Programming/ch1/challenge]$ strings 2006-honda-pilot.jpg
 ...
@@ -58,7 +58,7 @@ plaintext = hhtc{l66430331412m9k40wzbky05j2069c22}
 #r_k = "UPPERCASE ONLY"  #FCCID 
 ตรง comment บอกว่า FCC ผมเลยคิดว่า key น่าจะเป็น CWTWBIU544
 ```
-## Step 2:
+## Step 3:
 ```python
 def decode_vigenere(encoded_text, key):
     result = ""
