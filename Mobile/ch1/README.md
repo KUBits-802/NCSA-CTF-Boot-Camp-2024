@@ -11,7 +11,7 @@ see that the file is .apk which is andriod application file so we wanted to use 
 
 ## Install JADX:
 ### For Linux
-1.install jdx dev kit [here](https://www.oracle.com/java/technologies/downloads/#jdk21-linux)<br><br>
+1.install jdx dev kit [here](https://www.oracle.com/java/technologies/downloads/#jdk21-linux)<br>
 2.run below code in terminal
 ```
 git clone https://github.com/skylot/jadx.git
@@ -35,4 +35,5 @@ you can manully install [here](https://github.com/skylot/jadx/releases)
 
 The flag is **flag{1d1026ac0bc66bf4df6bdb46f2a47ce6}**
 
+Thai version coming soon
 written by [slowyier](https://github.com/nolgg)
