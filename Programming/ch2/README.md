@@ -82,6 +82,7 @@ decoded_message = decode_vigenere(plaintext, remote_key)
 print(f"Decoded Message: {decoded_message}")
 ```bash
 [siph:...Y/Programming/ch1/challenge]$ python3 vigenere.py
+```
 Decoded Message: flab{r66430331412e9o40oftdq05q[REDACTED]}
 ```
 *written by [Siraphat-ohm](https://github.com/Siraphat-ohm)*
