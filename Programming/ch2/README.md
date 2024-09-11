@@ -8,7 +8,7 @@
 Archive:  challenge.zip
   inflating: challenge/key.png
   inflating: challenge/vigenere.py
-  inflating: challenge/2005-honda-pilot.jpg
+  inflating: challenge/2006-honda-pilot.jpg
 ```
 เมื่อแตกไฟล์จะได้ folder ชื่อ challenge และใน folder จะมีอยู่ 2 ไฟล์คือ vigenere.py , key.png, 2006-honda-pilot.jpg
 ```python
@@ -20,11 +20,14 @@ def decode_vigenere(encoded_text, key):
     for i in range(len(encoded_text)):
         if encoded_text[i].isalpha():
             offset = ord('a') if encoded_text[i].islower() else ord('A')
-            value = (ord(encoded_text[i]) - offset - key_as_int[i % key_length]) % 25
+            value = (ord(encoded_text[i]) - offset - key_as_int[i % key_length]) % 26
             result += chr(value + offset)
         else:
             result += encoded_text[i]
     return result
+
+plaintext = "hhtc{l66430331413m9k40wzbky05j2069c22}"
+remote_key = "CWTBIU545"
 
 decoded_message = decode_vigenere(plaintext, remote_key)
 print(f"Decoded Message: {decoded_message}")
@@ -56,7 +59,7 @@ plaintext = hhtc{l66430331412m9k40wzbky05j2069c22}
 
 ```python
 #r_k = "UPPERCASE ONLY"  #FCCID 
-ตรง comment บอกว่า FCC ผมเลยคิดว่า key น่าจะเป็น CWTWBIU544
+ตรง comment บอกว่า FCC ผมเลยคิดว่า key น่าจะเป็น CWTWBIU545
 ```
 ## Step 3:
 ```python
@@ -67,16 +70,14 @@ def decode_vigenere(encoded_text, key):
     for i in range(len(encoded_text)):
         if encoded_text[i].isalpha():
             offset = ord('a') if encoded_text[i].islower() else ord('A')
-            value = (ord(encoded_text[i]) - offset - key_as_int[i % key_length]) % 25
+            value = (ord(encoded_text[i]) - offset - key_as_int[i % key_length]) % 26
             result += chr(value + offset)
         else:
             result += encoded_text[i]
     return result
 
-
-
 plaintext = "hhtc{l66430331412m9k40wzbky05j2069c22}"
-remote_key = "CWTBIU544"
+remote_key = "CWTBIU545"
 
 decoded_message = decode_vigenere(plaintext, remote_key)
 print(f"Decoded Message: {decoded_message}")
