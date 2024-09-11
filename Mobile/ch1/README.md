@@ -5,6 +5,7 @@
 ## Step 1 : see what file we got
 
 See that we got file [Challenge1_findme.zip](Challenge1_findme.zip) which is protected zip (password require) the password was provided during NCSA Bootcamp but we didn't make a copy so we will provide unziped file [here](Challenge1_findme.apk)
+*edit: we recover password: P@ssw0rd#!
 ## Step 2: get the right tool
 see that the file is .apk which is andriod application file so we wanted to use JADX tools that will decomplie dex to java 
 
