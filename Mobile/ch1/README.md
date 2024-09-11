@@ -36,4 +36,4 @@ you can manully install [here](https://github.com/skylot/jadx/releases)
 The flag is **flag{1d1026ac0bc66bf4df6bdb46f2a47ce6}**
 
 Thai version coming soon
-written by [slowyier](https://github.com/nolgg)
+*written by [slowyier](https://github.com/nolgg)*
