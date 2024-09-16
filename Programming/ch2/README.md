@@ -26,9 +26,6 @@ def decode_vigenere(encoded_text, key):
             result += encoded_text[i]
     return result
 
-plaintext = "hhtc{l66430331413m9k40wzbky05j2069c22}"
-remote_key = "CWTBIU545"
-
 decoded_message = decode_vigenere(plaintext, remote_key)
 print(f"Decoded Message: {decoded_message}")
 
