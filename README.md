@@ -1,4 +1,4 @@
-# NCSA-CTF-Boot-Camp-2024
+# NCSA CTF Boocamp 2024
 
 - [x] Forencics (2/2)
 - [x] Mobile (2/2)
